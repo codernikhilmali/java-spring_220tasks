@@ -4,4 +4,11 @@ public class CreditCardPayment extends PaymentMethod{
     {
         super(provider);
     }
+
+    @Override 
+    public void processPayment()
+    {
+        System.out.println("Current payment method is Credit card");
+        System.out.println("Payment successfull");
+    }
 }

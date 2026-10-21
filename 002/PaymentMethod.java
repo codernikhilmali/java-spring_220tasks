@@ -12,8 +12,5 @@ public abstract class PaymentMethod
         System.out.println("Current Payment provider is = "+provider);
     }
 
-    public void processPayment()
-    {
-        
-    }
+    public abstract void processPayment();
 }
